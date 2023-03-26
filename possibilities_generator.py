@@ -1,5 +1,6 @@
 #Tic tac toe possibilities generator script - v0.1
 #Author: Fernando A. C. de Barros - ECA - UERGS
+#This project is available on: https://github.com/fecaletti/mean-old-woman
 
 import simple_game_commons as sp
 from simple_game_commons import GameEndException

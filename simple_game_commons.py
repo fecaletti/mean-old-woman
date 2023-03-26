@@ -1,5 +1,7 @@
 #Tic tac toe game helper script - v0.1
 #Author: Fernando A. C. de Barros - ECA - UERGS
+#This project is available on: https://github.com/fecaletti/mean-old-woman
+
 import colorama
 
 _EMPTY = " "
