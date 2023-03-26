@@ -138,7 +138,8 @@ while run_simulation:
         if(len(currentPossib.nextPossibilities) == 0):
             raise GameEndException("We have a winner!" if currentPossib.isGameFinished() else "No more positions available. Game finished...")
         
-        control = input("Choose a path: ")
+        #User can choose the next move by inserting a number from 0 to n-1, where n is the number of possible next moves shown in the console
+        control = input("Choose a path [0-n]: ") 
         desiredPoss = int(control)
         currentPossib = currentPossib.nextPossibilities[desiredPoss]
         clear_tree(4)
