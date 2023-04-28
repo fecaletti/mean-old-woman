@@ -1,0 +1,14 @@
+UERGS - Universidade Estadual Do Rio Grande Do Sul
+Disciplina: Inteligência Artificial - Ano: 2023
+Aluno: Fernando A. C. de Barros
+
+Atividade 02 - Instruções de uso
+
+A atividade 02 consiste no desenvolvimento de um programa para criação da arvore de estados entre um ponto de entrada e um ponto de saída de um mapa.
+
+O programa implementado para cumprimento da atividade foi desenvolvido na linguagem python.
+Para exeutar o programa é necessário possuir a biblioteca numpy instalada no sistema. 
+A instalação pode ser realizada a partir do comando pip install numpy, ou, utilizando o arquivo de requisitos anexado junto ao programa: pip install -r requirements.txt
+
+Para utilizar o programa é necessário moldar o array globalMap com as células desejadas, para isso basta utilizar a classe Cell, que possui um construtor que segue a ordem do vetor de dados da descrição da atividade.
+Tendo ajustado o array globalMap, basta executar o programa que a árvore será construída.

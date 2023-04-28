@@ -1,6 +1,12 @@
+#Universidade Estadual do Rio Grande do Sul - UERGS
+#Curso: Engenharia de Controle e Automação - Disciplina: Inteligência Artificial
+#Aluno: Fernando Augusto Caletti de Barros
+#Ano: 2023
+
 import numpy as np
 
 class Cell:
+    #Construtor: Recebe como argumentos os parametros especificados no array de dados de coordenadas da atividade.
     def __init__(self, R = 0, C = 0, CN = 0, CL = 0, CS = 0, CO = 0, TC = 0):
         self.id = 0
         self.data = [R, C, CN, CL, CS, CO, TC]
@@ -150,6 +156,7 @@ def run(map):
     for row in resultTree:
         row.drawRow()
 
+#Constrói array principal para o mapa.
 globalMap = [
     Cell(0, 0, 0, 1, 0, 0, 1),
     Cell(0, 1, 0, 1, 1, 1, 0),
@@ -162,4 +169,5 @@ globalMap = [
     Cell(2, 2, 0, 0, 0, 1, 2)
 ]
 
+#Roda construção da árvore.
 run(globalMap)
