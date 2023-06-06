@@ -6,3 +6,7 @@ include/
 lib/
 
 pyvenv.cfg
+/activity-04/Agentes/AgenteRoom/AgenteRoom/dist/
+/activity-04/Agentes/AgenteRoom/AgenteRoom/build/
+/activity-04/Agentes/AgenteClass/AgenteClass/dist/
+/activity-04/Agentes/AgenteClass/AgenteClass/build/
