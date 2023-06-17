@@ -1,0 +1,14 @@
+Universidade Estadual do Rio Grande do Sul - UERGS
+Disciplina: Inteligência Artificial - 2023
+Aluno: Fernando Augusto Caletti de Barros
+
+Trabalho Prático 05 - Implementação de rede MLP
+
+Instruções:
+
+Executar via interpretador python o arquivo main.py.
+A unica biblioteca externa necessária para execução é numpy.
+O arquivo main.py utiliza as classes auxiliares desenvolvidas no módulo perceptron.py para criação de uma rede MLP de duas camadas.
+No aquivo main estão contidas as parametrizações iniciais de peso, rede, bias e dataset.
+
+O teste implementado no arquivo main realiza o treinamento da rede com um conjunto de dados representando a operação XOR em registradores de dois bits.
